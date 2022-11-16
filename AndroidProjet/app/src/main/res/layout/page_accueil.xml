@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewBienvenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenue"
+        android:textColor="#52008E"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/textViewPseudo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pseudo"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextPseudo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"/>
+
+    <Button
+        android:id="@+id/bouttonJouer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jouer" />
+
+    <Button
+        android:id="@+id/bouttonScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/score"
+        />
+
+    <Button
+        android:id="@+id/bouttonQuitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/quitter"
+         />
+
+</LinearLayout>

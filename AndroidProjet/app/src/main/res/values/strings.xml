@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CutMonster</string>
+    <string name="bienvenue">Bienvenue</string>
+    <string name="pseudo">Entrez votre pseudo</string>
+    <string name="jouer">Jouer</string>
+    <string name="quitter">Quitter</string>
+    <string name="listeScore">Les joueurs :</string>
+    <string name="retour">Retour</string>
+    <string name="score">Scores</string>
+    <string name="points" formatted="false">Points : %d</string>
+</resources>
